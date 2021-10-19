@@ -13,5 +13,11 @@ public class SimpleBot {
         String name = scanner.nextLine();
 
         System.out.println("What a great name you have, " + name + "!");
+        System.out.println("Let me guess your age.");
+        System.out.println("Enter remainders of dividing your age by 3, 5 and 7.");
+
+        // reading all remainders
+
+        System.out.println("Your age is {yourAge}; that's a good time to start programming!");
     }
 }
