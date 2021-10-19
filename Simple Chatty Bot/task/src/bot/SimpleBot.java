@@ -10,8 +10,8 @@ public class SimpleBot {
         System.out.println("I was created in 2018.");
         System.out.println("Please, remind me your name.");
 
-        // reading a name
+        String name = scanner.nextLine();
 
-        System.out.println("What a great name you have, {yourName}!");
+        System.out.println("What a great name you have, " + name + "!");
     }
 }
